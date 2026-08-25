@@ -797,6 +797,20 @@ def generate_dashboard_html(games: List[Dict[str, Any]], output_file: str = "ste
           <p id="modalDesc" style="font-size: 13px; color: var(--text-secondary); line-height: 1.6;"></p>
         </div>
 
+        <div style="margin-bottom: 16px;">
+          <h4 style="font-size: 13px; color: #facc15; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+            ✨ 游戏类型与看点:
+          </h4>
+          <div id="modalGenreAnalysis" style="background: rgba(234, 179, 8, 0.1); border: 1px solid rgba(234, 179, 8, 0.3); border-radius: 6px; padding: 10px; font-size: 13px; color: #fef08a; line-height: 1.6;"></div>
+        </div>
+
+        <div style="margin-bottom: 20px;">
+          <h4 style="font-size: 13px; color: #fb923c; margin-bottom: 6px; display: flex; align-items: center; gap: 6px;">
+            🔥 爆款逻辑 / 破圈驱动机制:
+          </h4>
+          <div id="modalViralLogic" style="background: rgba(249, 115, 22, 0.1); border: 1px solid rgba(249, 115, 22, 0.3); border-radius: 6px; padding: 10px; font-size: 13px; color: #fed7aa; line-height: 1.6;"></div>
+        </div>
+
         <div style="display: flex; gap: 12px;">
           <a id="modalSteamLink" href="#" target="_blank" class="steam-btn" style="flex: 1; justify-content: center; padding: 10px;">
             在 Steam 商店中查看
@@ -1035,6 +1049,8 @@ def generate_dashboard_html(games: List[Dict[str, Any]], output_file: str = "ste
       }}
 
       document.getElementById('modalDesc').textContent = game.description || '暂无详细介绍';
+      document.getElementById('modalGenreAnalysis').textContent = game.genre_analysis || '暂无专属类型与看点分析';
+      document.getElementById('modalViralLogic').textContent = game.viral_logic || '核心玩法自洽 + 强情绪正反馈 + 适合社交分享或直播切片传播';
       document.getElementById('modalSteamLink').href = `https://store.steampowered.com/app/${{game.appid}}/`;
       document.getElementById('modalSteamDbLink').href = `https://steamdb.info/app/${{game.appid}}/`;
 

@@ -18,6 +18,8 @@ export interface SteamGame {
   evidence: string[];
   is_micro: boolean;
   steam_url?: string;
+  genre_analysis?: string;
+  viral_logic?: string;
 }
 
 export interface PythonSourceFile {

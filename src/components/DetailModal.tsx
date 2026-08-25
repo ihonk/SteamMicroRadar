@@ -1,6 +1,7 @@
 import React from "react";
 import { SteamGame } from "../types";
-import { X, ExternalLink, User, Users, ShieldCheck, Tag } from "lucide-react";
+import { X, ExternalLink, User, Users, ShieldCheck, Tag, Sparkles, Flame } from "lucide-react";
+import { GAME_HIGHLIGHTS_DICT } from "../data/gameHighlights";
 
 interface DetailModalProps {
   game: SteamGame | null;
@@ -9,6 +10,11 @@ interface DetailModalProps {
 
 export const DetailModal: React.FC<DetailModalProps> = ({ game, onClose }) => {
   if (!game) return null;
+
+  const highlightInfo = GAME_HIGHLIGHTS_DICT[game.appid] || {
+    genreAnalysis: game.genre_analysis || "独立游戏微型品类微创新与差异化定位",
+    viralLogic: game.viral_logic || "核心机制爽点自洽 + 强情绪正反馈 + 适合社交分享或直播切片传播"
+  };
 
   return (
     <div
@@ -120,6 +126,30 @@ export const DetailModal: React.FC<DetailModalProps> = ({ game, onClose }) => {
             <p className="text-xs text-[#8b929a] leading-relaxed bg-[#101218] p-3 rounded-lg border border-[#2d323c]">
               {game.description || "暂无详细简介"}
             </p>
+          </div>
+
+          {/* Game Genre & Highlights Analysis (游戏类型与看点) */}
+          <div>
+            <h4 className="text-xs font-bold text-[#eab308] mb-1.5 flex items-center gap-1.5">
+              <Sparkles className="w-4 h-4 text-[#eab308]" /> 游戏类型与看点:
+            </h4>
+            <div className="text-xs text-[#e9eaeb] leading-relaxed bg-[#232014] p-3.5 rounded-xl border border-[#ca8a0444] space-y-2">
+              <p className="leading-relaxed text-[#fef08a]/90">
+                {highlightInfo.genreAnalysis}
+              </p>
+            </div>
+          </div>
+
+          {/* Viral Logic / Breakout Driver (爆款逻辑与破圈机制) */}
+          <div>
+            <h4 className="text-xs font-bold text-[#f97316] mb-1.5 flex items-center gap-1.5">
+              <Flame className="w-4 h-4 text-[#f97316]" /> 爆款逻辑 / 破圈驱动机制:
+            </h4>
+            <div className="text-xs text-[#e9eaeb] leading-relaxed bg-[#261712] p-3.5 rounded-xl border border-[#ea580c44]">
+              <p className="leading-relaxed text-[#fed7aa]/95">
+                {highlightInfo.viralLogic}
+              </p>
+            </div>
           </div>
 
           {/* Action Links */}

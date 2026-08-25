@@ -34,7 +34,9 @@
       "Solo developer Zeekerss (One-man game dev phenomenon)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/1966720/"
+    "steam_url": "https://store.steampowered.com/app/1966720/",
+    "genre_analysis": "近距离语音多人合作恐怖撤离沙盒（Co-op Horror Extraction）。玩家扮演前往废弃卫星捡破烂的公司打工人，在有限电量、严苛定额与不可名状怪物的双重重压下极限求生。",
+    "viral_logic": "极度真实的近场语音空间衰减 + 物理布娃娃滑稽死法 + 团队连坐惩罚机制。天然契合直播切片传播，观众在惊吓与爆笑之间无缝切换，引发病毒式二创。"
   },
   {
     "appid": 3164500,
@@ -75,7 +77,9 @@
       "Solo developer Tyler (Tyler's Video Game Studio / TVGS)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/3164500/"
+    "steam_url": "https://store.steampowered.com/app/3164500/",
+    "genre_analysis": "第一人称黑市经营与开放世界战术模拟（Open-World Crime Tycoon）。从地下小作坊配方合成、进货包装、地推分销到雇佣小弟与躲避警方缉查，全拟真呈现商业帝国的崛起路径。荣获 2025 英国金摇杆奖（Golden Joystick Awards）突破奖。",
+    "viral_logic": "高自由度犯罪模拟题材的稀缺性 + 严密递进的黑产经济与管理链条 + 极具沉浸感的第一人称交互，成为继《Lethal Company》之后单人独立开发的又一巨量级奇迹。"
   },
   {
     "appid": 1363080,
@@ -113,7 +117,9 @@
       "Solo core developer Greg Styczeń (Slavic Magic, supported by outsourced contractors)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/1363080/"
+    "steam_url": "https://store.steampowered.com/app/1363080/",
+    "genre_analysis": "中世纪无网格拟真城市建造与全战式战术推演（Realistic Medieval City Builder）。精细还原 14 世纪欧洲封建领地经济流转、有机无网格道路规划与季节气候对农业的真实制约。",
+    "viral_logic": "独狼开发者 Slavic Magic 历时 7 年全栈深耕 + 虚幻引擎极致画质打磨 + 长期社区透明开发与玩家深度共创，奠定了超越中型商业团队的坚实口碑。"
   },
   {
     "appid": 2835570,
@@ -150,7 +156,9 @@
       "Solo developer Mike Klubnika (Original solo indie creator from itch.io to Steam hit)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2835570/"
+    "steam_url": "https://store.steampowered.com/app/2835570/",
+    "genre_analysis": "微场景心理博弈与桌面轮盘赌（Tabletop Psychological Thriller）。在潮湿阴暗的地下室与恶魔庄家对坐，将传统的左轮手枪替换为 12 号霰弹枪，配合手铐、放大镜、香烟等道具进行命悬一线的心理战。",
+    "viral_logic": "极具工业废土与录像带噪点美学（Lo-fi Grunge）+ 单房间极度聚焦的冷峻氛围 + 简单但极高张力的生死抉择，单局仅 15 分钟却具有现象级直播传播力。"
   },
   {
     "appid": 2379780,
@@ -187,7 +195,9 @@
       "Solo developer LocalThunk (100% solo project, won multiple Game Awards)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2379780/"
+    "steam_url": "https://store.steampowered.com/app/2379780/",
+    "genre_analysis": "规则微创新牌组构建肉鸽（Roguelike Deckbuilder）。将全球通用的经典德州扑克规则作为极低门槛的认知载体，剥离所有繁琐叙事，纯粹依靠小丑牌（Joker）之间的乘法数值质变、塔罗牌重塑与盲注倍率跃升，创造极度爽快的心流。",
+    "viral_logic": "经典认知规则做减法 + 乘法指数级数值爆发 + 极简复古 CRT 滤镜视听反馈，让全球玩家与主播产生“再来一把”的极致成瘾性循环。"
   },
   {
     "appid": 4704690,
@@ -225,7 +235,9 @@
       "Solo developer lemorion_1224 (Single person creator)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/4704690/"
+    "steam_url": "https://store.steampowered.com/app/4704690/",
+    "genre_analysis": "多人涂色伪装与搞笑捉迷藏派对（Hide-and-Seek Party Game）。玩家在关卡中随意抽取颜料自定义身体花纹，完美融入环境背景，躲避抓捕者的火眼金睛。",
+    "viral_logic": "极简的“变色躲猫猫”核心机制 + 玩家自主涂鸦产生的沙雕视觉笑点 + 极低的硬件与学习门槛，在年轻社交群体与直播平台中引发自发狂欢。"
   },
   {
     "appid": 2670630,
@@ -263,7 +275,9 @@
       "Origin solo developer Yusuf Toptan (Nokta Games Turkey micro team)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2670630/"
+    "steam_url": "https://store.steampowered.com/app/2670630/",
+    "genre_analysis": "第一人称日常劳动与超市经营模拟（First-Person Store Management）。涵盖订货拆箱、货架分类摆放、定价策略、扫码找零以及店铺装潢扩张的全流程沉浸式劳作。",
+    "viral_logic": "上货、摆货架、扫码收银、进货补仓的极致日常劳动正反馈，引爆全网主播自发带货。"
   },
   {
     "appid": 2231450,
@@ -300,7 +314,9 @@
       "2-person core creative duo Tour De Pizza (McPig & Sertif)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2231450/"
+    "steam_url": "https://store.steampowered.com/app/2231450/",
+    "genre_analysis": "高速横版动作与狂气平台跳跃（High-Speed Action Platformer）。继承并进化了《瓦里奥乐园 4》的设计精髓，以不可阻挡的高速冲刺破坏一切，并在关卡结尾展开惊心动魄的逃脱倒计时（Pizza Time）。",
+    "viral_logic": "狂暴手绘 90 年代美漫逐帧动画 + 极高上限的动量操作手感 + 极度上头的硬核配乐，打造出独一无二的作者印记（Auteur Style）。"
   },
   {
     "appid": 3070070,
@@ -339,7 +355,9 @@
       "Solo developer Sia Ding Shen (OPNeon Games, Malaysia)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/3070070/"
+    "steam_url": "https://store.steampowered.com/app/3070070/",
+    "genre_analysis": "集换式卡牌店铺经营与开包收集模拟（TCG Store & Pack Opening Sim）。融合了订购卡包、线下开盒鉴定稀有闪卡、装入收藏册标价贩售、举办卡牌对决大赛的完整闭环。",
+    "viral_logic": "拆卡包的开箱快感 + 整理卡册标价 + 开店经营的强迫症分类心流。"
   },
   {
     "appid": 2420510,
@@ -376,7 +394,9 @@
       "Solo lead developer Kay Yu (KayAnimate)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2420510/"
+    "steam_url": "https://store.steampowered.com/app/2420510/",
+    "genre_analysis": "同人二次元像素弹幕射击与幸存者割草（Anime Vampire Survivors-like）。为每一位角色量身打造独特的专属武器、被动技能、小游戏与家园钓鱼系统。",
+    "viral_logic": "一人主导但品质全面超越大量商业同类作 + 极致纯粹的为爱发电（100% 免费无内购）+ 细节拉满的社群梗共鸣，创下 99.1% 的 Steam 历史天花板好评率。"
   },
   {
     "appid": 2881650,
@@ -415,7 +435,9 @@
       "3-person indie studio Anegar Games (Micro team of 3 developers in Turkey)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2881650/"
+    "steam_url": "https://store.steampowered.com/app/2881650/",
+    "genre_analysis": "铁链羁绊多人硬核攀爬与平台跳跃（Chained 3D Climbing Platformer）。4 名玩家被一根带有真实物理刚体的铁链紧紧绑在一起，从地狱深渊向上攀登，一人失误全员坠落。",
+    "viral_logic": "极致考验友谊的连坐机制 + 物理铁链产生的意外拉扯与搞笑事故 + 极高情绪过山车带来的直播高光时刻，成为 2024 年现象级社交开黑神器。"
   },
   {
     "appid": 1989270,
@@ -452,7 +474,9 @@
       "2-person creative team Black Tabby Games (Abby Howard & Tony Howard-Arias)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/1989270/"
+    "steam_url": "https://store.steampowered.com/app/1989270/",
+    "genre_analysis": "手绘黑白炭笔素描心理恐怖与多分支叙事（Hand-drawn Psychological Horror VN）。旁白命令你“去地下室杀死那个会毁灭世界的公主”，而每一次抉择都会使公主变异为截然不同的形态。",
+    "viral_logic": "全手绘炭笔黑白压抑质感 + 全程顶级配音与哲学思辨 + 极致精妙的元叙事（Meta-fiction）分支网络，创造了独树一帜的叙事体验。"
   },
   {
     "appid": 2321470,
@@ -488,7 +512,9 @@
       "Micro strike team of 3 core devs inside Funday Games"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2321470/"
+    "steam_url": "https://store.steampowered.com/app/2321470/",
+    "genre_analysis": "单人俯视角自动射击与地形破坏幸存者（Single-Player Auto-Shooter with Destruction）。保留了深岩银河经典的挖矿破墙、虫潮围剿与空降仓撤离体验。",
+    "viral_logic": "经典成熟 IP 的轻量化幸存者变体 + 边打边挖地形的策略独特性 + 3 人微型突击队实现的高效产出与视听张力。"
   },
   {
     "appid": 2198150,
@@ -525,7 +551,9 @@
       "2-person duo studio Pounce Light (Anastasia Opara & Tomasz Stachowiak)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2198150/"
+    "steam_url": "https://store.steampowered.com/app/2198150/",
+    "genre_analysis": "无网格自由涂抹与治愈系城堡搭建（Gridless Cozy Castle Doodler）。完全剔除了资源管理、战斗与任务惩罚，玩家仅需像画画一样自由涂抹墙体、拱门与窗户，程序会自动生成细腻的建筑逻辑。",
+    "viral_logic": "自研程序化几何算法实现的建筑化学反应（无缝转角、藤蔓生长、小鸟驻足）+ 极致惬意无压力的视觉听觉治愈体验，完美契合当代玩家的精神疗愈需求。"
   },
   {
     "appid": 4197610,
@@ -564,7 +592,9 @@
       "Solo indie creator ArtRising (一人独立开发收纳整理神作)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/4197610/"
+    "steam_url": "https://store.steampowered.com/app/4197610/",
+    "genre_analysis": "第一人称纯粹收纳整理与魔法图书馆模拟（Pure Tidying & Library Organizing）。玩家的目标是将散落在宏大魔法图书馆内的全部 3,072 本图书逐一归位，解锁磁吸、疾跑等技能提升效率。",
+    "viral_logic": "极致纯粹的强迫症秩序重建 + 零战斗零挫败感的解压心流体验 + 垂类图书分类爱好的精准击中，无需复杂剧情即收获压倒性好评。"
   },
   {
     "appid": 813230,
@@ -602,7 +632,9 @@
       "Solo programmer/designer Billy Basso (Custom engine built from scratch by 1 person)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/813230/"
+    "steam_url": "https://store.steampowered.com/app/813230/",
+    "genre_analysis": "非传统解谜导向银河恶魔城（Atmospheric Puzzle Metroidvania）。没有任何常规战斗武器，玩家仅使用悠悠球、泡泡机、飞盘等玩具道具与阴森又生机勃勃的超现实地下生态深度互动。",
+    "viral_logic": "独狼开发者 Billy Basso 自研定制引擎实现的极致粒子光影 + ARG 级别的深层多周目谜题设计 + 密不透风的神秘探索感，树立了独立游戏解谜新标杆。"
   },
   {
     "appid": 2427700,
@@ -641,7 +673,9 @@
       "2-person indie developer duo (Furcifer & Mario / PlayWithFurcifer)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2427700/"
+    "steam_url": "https://store.steampowered.com/app/2427700/",
+    "genre_analysis": "异步对战背包空间管理与自走棋构筑（Inventory Management Auto-Battler）。核心战斗在于背包网格内的物品摆放、朝向、空间压缩与道具星级协同触发（Synergy）。",
+    "viral_logic": "将“整理背包”这一经典副玩法提炼为主核心博弈 + 异步对战无等待时间 + 深度装备合成进化树，引爆全球自走棋与卡牌圈层。"
   },
   {
     "appid": 2365810,
@@ -679,7 +713,9 @@
       "Solo indie developer rittzler (1 person developer)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2365810/"
+    "steam_url": "https://store.steampowered.com/app/2365810/",
+    "genre_analysis": "复古 N64 时代 3D 平台跳跃与类银河城动作（Retro 3D Platformer Metroidvania）。凭借翻滚、蹬墙跳、滑翔与空中挥砍，在梦境城堡中展开极致流畅的高机动性移动探索。",
+    "viral_logic": "单人开发对 3D 动量控制（Momentum Physics）与关卡跳跃手感的顶级调校 + 浓郁低多边形复古怀旧美学 + 紧凑刺激的探索流程。"
   },
   {
     "appid": 2125190,
@@ -716,7 +752,9 @@
       "Solo developer TVGS (1 person developer)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2125190/"
+    "steam_url": "https://store.steampowered.com/app/2125190/",
+    "genre_analysis": "微型独立团队题材创新与精简核心循环",
+    "viral_logic": "核心机制爽点自洽 + 强情绪正反馈 + 适合社交与直播传播"
   },
   {
     "appid": 4001890,
@@ -754,7 +792,9 @@
       "2-person indie creator duo at Dazed Games (Sold over 1M copies in 2 days)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/4001890/"
+    "steam_url": "https://store.steampowered.com/app/4001890/",
+    "genre_analysis": "沙雕多人联机生存钓鱼与荒岛突围（Viral Co-op Survival Fishing）。海难幸存者必须一边用奇葩鱼竿钓取各类神秘海洋生物，一边拿起武器抵御深海怪物的侵袭。",
+    "viral_logic": "“钓鱼佬绝不空军”的热梗结合 + 物理荒诞的合作失误与互坑笑料 + 2人小团队极快迭代节奏，发售 2 天内销量即破百万套。"
   },
   {
     "appid": 1782120,
@@ -793,7 +833,9 @@
       "Solo Italian developer Luca Carbonera (CABO Studio)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/1782120/"
+    "steam_url": "https://store.steampowered.com/app/1782120/",
+    "genre_analysis": "2D 俯视角单人硬核撤离类射击（“2D 版塔科夫+潜行者”）。深入程序化生成的废土区域搜刮物资、改装枪械配件、与各派系交涉并赶在辐射与怪物吞噬前安全撤离。",
+    "viral_logic": "一人完成了全部像素美术、程序与程序化地图生成 + 极高风险高回报的搜刮博弈心流。"
   },
   {
     "appid": 2666510,
@@ -831,7 +873,9 @@
       "Solo indie creator Mister Morris (Mister Morris Games)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2666510/"
+    "steam_url": "https://store.steampowered.com/app/2666510/",
+    "genre_analysis": "屏幕底部常驻放置农场与微多任务伴侣（Bottom-of-the-Screen Idle Farm）。游戏仅占用屏幕最底下一小条区域，玩家在日常办公、看剧、写代码的同时顺便收菜与自动化升级。",
+    "viral_logic": "颠覆传统全屏游戏的“形态创新” + 完美契合现代 PC 用户“工作摸鱼/多任务伴侣”心理 + 零压力的自动化正反馈，发售即封神。"
   },
   {
     "appid": 2407200,
@@ -868,7 +912,9 @@
       "3-person core design team at Rednexus Games"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2407200/"
+    "steam_url": "https://store.steampowered.com/app/2407200/",
+    "genre_analysis": "弹珠台物理碰撞与爬塔卡牌构筑（Pachinko Roguelike Deckbuilder）。将《幻幻球（Peggle）》的弹球物理碰撞与《杀戮尖塔》的遗物/弹珠构筑完美融合。",
+    "viral_logic": "弹球下落随机性与构筑确定性的精妙平衡 + 满屏弹珠连环暴击的解压视听 + 3 人团队在抢先体验期间的持续打磨。"
   },
   {
     "appid": 2653790,
@@ -905,7 +951,9 @@
       "Solo Japanese indie creator KOTAKE CREATE (一人独立制作)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2653790/"
+    "steam_url": "https://store.steampowered.com/app/2653790/",
+    "genre_analysis": "地下通道短篇微恐与异常找茬模拟（Liminal Space Anomaly Hunt）。玩家被困在无尽循环的日本地下通道中，必须敏锐观察周遭细节，发现异常立即掉头，无异常则继续前进直至 8 号出口。",
+    "viral_logic": "将“找不同”日常玩法融入阈限空间（Liminal Space）心理恐怖 + 极短单局与极强主播代入感，开创了风靡全球的“8番出口-like”全新子品类。"
   },
   {
     "appid": 2678990,
@@ -946,7 +994,9 @@
       "2-person indie couple/duo team (Doot & Blibloop)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2678990/"
+    "steam_url": "https://store.steampowered.com/app/2678990/",
+    "genre_analysis": "极简日式微街道收纳经营与治愈猫咪互动（Cozy Japanese Street Builder）。玩家通过建造拉面店、书店、花店，满足居民喜好，调节每日营业配方，营造和谐社区。",
+    "viral_logic": "极简日式微街道收纳经营与治愈猫咪互动，单日通关但口碑极硬（97.4% 好评）。"
   },
   {
     "appid": 1996010,
@@ -983,7 +1033,9 @@
       "2 brothers duo team (Tom & Adam Vian / SFB Games)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/1996010/"
+    "steam_url": "https://store.steampowered.com/app/1996010/",
+    "genre_analysis": "复古 PS1 时代低多边形古典生存恐怖（Classic 90s Survival Horror）。探访 1990 年神秘关闭的废弃游乐园，在有限弹药、物资管理与环境谜题中拼凑真相。",
+    "viral_logic": "对《生化危机 1》与《寂静岭》古典恐怖美学的现代改良 + 极高水准的场景谜题设计 + 双人兄弟团队多年积累的独立游戏设计功底。"
   },
   {
     "appid": 3438850,
@@ -1023,7 +1075,9 @@
       "Solo developer Maximilian Porter / Max (The Sledding Corporation)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/3438850/"
+    "steam_url": "https://store.steampowered.com/app/3438850/",
+    "genre_analysis": "多人联机滑雪沙盒与近场语音派对（Multiplayer Snowsports Hangout）。自定义可爱动物角色与雪橇，在雪山中进行物理竞速、花式特技、打雪仗和围炉烤棉花糖。",
+    "viral_logic": "布娃娃物理带来的爆笑翻滚碰撞 + 惬意松弛的雪山社交氛围 + 开发者在 TikTok 上透明记录开发历程积累的深厚社群支持。"
   },
   {
     "appid": 2688100,
@@ -1059,6 +1113,8 @@
       "Solo game creator Jason Newman (Cicada Games)"
     ],
     "is_micro": true,
-    "steam_url": "https://store.steampowered.com/app/2688100/"
+    "steam_url": "https://store.steampowered.com/app/2688100/",
+    "genre_analysis": "开放世界海洋推箱子与宏大环境谜题（Open-World Oceanic Sokoban Adventure）。乘船穿梭于奇幻群岛，解开数百个非线性环环相扣的推箱子与机制谜题。",
+    "viral_logic": "将古老的推箱子玩法升华为无引导开放世界大地图探索 + 极具沉浸感的高级像素视听，赢得硬核解谜玩家群体的一致推崇。"
   }
 ]
