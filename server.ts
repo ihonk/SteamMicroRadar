@@ -12,18 +12,43 @@ app.use(express.json());
 // API: Get Games List
 app.get("/api/games", (req, res) => {
   try {
+    const staticJsonPath = path.join(process.cwd(), "src", "staticGames.json");
+    
+    // Check if static pre-generated json exists for instant response
+    if (fs.existsSync(staticJsonPath) && req.query.refresh !== "true") {
+      try {
+        const cached = JSON.parse(fs.readFileSync(staticJsonPath, "utf-8"));
+        if (Array.isArray(cached) && cached.length > 0) {
+          return res.json({ success: true, games: cached });
+        }
+      } catch (e) {
+        // proceed to python exec
+      }
+    }
+
     // Run python fetcher or read cached db/json
     exec("python3 main.py --json", (error, stdout, stderr) => {
       if (!error && stdout) {
         try {
           const data = JSON.parse(stdout);
-          return res.json({ success: true, games: data });
+          if (Array.isArray(data) && data.length > 0) {
+            fs.writeFileSync(staticJsonPath, JSON.stringify(data, null, 2), "utf-8");
+            return res.json({ success: true, games: data });
+          }
         } catch (e) {
           // fallback
         }
       }
 
-      // Fallback if execution fails
+      // Fallback 1: check static json again
+      if (fs.existsSync(staticJsonPath)) {
+        try {
+          const fallback = JSON.parse(fs.readFileSync(staticJsonPath, "utf-8"));
+          return res.json({ success: true, games: fallback });
+        } catch (e) {}
+      }
+
+      // Fallback 2: check exported dashboard html
       const fallbackFile = path.join(process.cwd(), "steam_micro_indies_dashboard.html");
       if (fs.existsSync(fallbackFile)) {
         const content = fs.readFileSync(fallbackFile, "utf-8");

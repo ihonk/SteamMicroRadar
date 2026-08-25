@@ -7,24 +7,30 @@ import { CodeView } from "./components/CodeView";
 import { DetailModal } from "./components/DetailModal";
 import { SteamGame } from "./types";
 import { Loader2 } from "lucide-react";
+import staticFallbackGames from "./staticGames.json";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<"dashboard" | "insights" | "analyzer" | "code">("dashboard");
-  const [games, setGames] = useState<SteamGame[]>([]);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [games, setGames] = useState<SteamGame[]>(staticFallbackGames as SteamGame[]);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isRefreshing, setIsRefreshing] = useState<boolean>(false);
   const [selectedGame, setSelectedGame] = useState<SteamGame | null>(null);
 
   const fetchGames = async (showRefresh = false) => {
     if (showRefresh) setIsRefreshing(true);
     try {
-      const res = await fetch("/api/games");
+      const url = showRefresh ? "/api/games?refresh=true" : "/api/games";
+      const res = await fetch(url);
+      if (!res.ok) {
+        throw new Error(`HTTP error ${res.status}`);
+      }
       const data = await res.json();
-      if (data.success && data.games) {
+      if (data.success && Array.isArray(data.games) && data.games.length > 0) {
         setGames(data.games);
       }
     } catch (e) {
-      console.error("Failed to load games:", e);
+      console.warn("API load failed, utilizing pre-bundled dataset fallback:", e);
+      // Fallback is already initialized in state
     } finally {
       setIsLoading(false);
       setIsRefreshing(false);

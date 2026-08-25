@@ -76,6 +76,11 @@ KNOWN_CREATORS_DB: Dict[str, Tuple[int, str]] = {
     "noisestorm": (1, "Verified: Solo creator Eoin O'Broin behind 'Crab Champions'"),
     "team cherry": (3, "Verified: 3-person core indie team (Ari, William, Jack)"),
     "mumpitz games": (2, "Verified: 2-person indie team behind 'Sir, We Have an Orc Problem'"),
+    "artrising": (1, "Verified: Solo developer ArtRising behind 'Librarian: Tidy Up the Arcane Library!' (图书管理员：整理魔法图书馆吧！)"),
+    "opneon games": (1, "Verified: Solo developer Sia Ding Shen (OPNeon Games) behind 'TCG Card Shop Simulator'"),
+    "nokta games": (1, "Verified: Solo creator Yusuf Toptan (origin solo dev in Turkey) behind 'Supermarket Simulator'"),
+    "doot": (2, "Verified: 2-person indie duo (Doot & Blibloop) behind 'Minami Lane'"),
+    "blibloop": (2, "Verified: 2-person indie duo (Doot & Blibloop) behind 'Minami Lane'"),
 }
 
 

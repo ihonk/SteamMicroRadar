@@ -55,6 +55,18 @@ export const InsightsView: React.FC<InsightsViewProps> = ({ games, onSelectGame 
       gameAppIds: [1966720, 4704690, 4001890, 2881650], // Lethal Company, MECCHA CHAMELEON, How to Fish, Chained Together
     },
     {
+      id: "organization",
+      name: "极致收纳整理、日常劳动与模拟解压类",
+      enName: "Cozy Tidying, Restocking & Satisfying Organization Sim",
+      icon: Sparkles,
+      color: "#38bdf8",
+      badgeBg: "bg-[#38bdf8]/15 text-[#38bdf8] border-[#38bdf8]/30",
+      description:
+        "将现实中具有强烈强迫症治愈感、劳动秩序归位与即时正反馈的动作（如将 3,072 本散乱图书精准归位、超市上货摆货架与收银、拆卡包分类入卡册、日式小街微经营）转化为极度沉浸、减压的心流循环。单人或双人开发即可完成完整闭环，投入产出比极高且黏性惊人。",
+      keyFormula: "强迫症秩序满足 + 劳动即时正反馈 + 零挫败感沉浸心流 + 垂类生活/爱好精准击中",
+      gameAppIds: [4197610, 3070070, 2670630, 2678990], // Librarian, TCG Card Shop Simulator, Supermarket Simulator, Minami Lane
+    },
+    {
       id: "rules",
       name: "规则驱动与微创新博弈类",
       enName: "Rules & Micro-Mechanics Deckbuilding",
@@ -133,7 +145,7 @@ export const InsightsView: React.FC<InsightsViewProps> = ({ games, onSelectGame 
           </h2>
           <p className="text-xs sm:text-sm text-[#8b929a] mt-2 leading-relaxed">
             基于当前雷达筛选出的 <strong className="text-white font-semibold">{games.length} 款</strong> 真实销量突破
-            10 万至 1500 万套的现象级独立游戏，结合 Steam API 官方全语言评测、行业媒体报道与制作人公开访谈，梳理出 5 大成功玩法原型与开发协同模式。
+            10 万至 1500 万套的现象级独立游戏，结合 Steam API 官方全语言评测、行业媒体报道与制作人公开访谈，梳理出 6 大成功玩法原型与开发协同模式。
           </p>
         </div>
 
