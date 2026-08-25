@@ -1,0 +1,8 @@
+# requirements.txt
+# Steam Micro-Indie Radar dependencies
+# Note: The code is designed to work with Python 3.8+ Standard Library out-of-the-box,
+# but installing these optional packages provides faster HTTP sessions and Jinja2 templating.
+
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+jinja2>=3.1.2

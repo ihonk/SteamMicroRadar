@@ -1,0 +1,6 @@
+{
+  "name": "Steam Micro-Indie Radar",
+  "description": "Automated data collection, team size analyzer, and interactive dashboard for viral Steam micro-indie games (2023+, <=3 devs, >=2500 reviews).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
