@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Terminal, Search, Sparkles, CheckCircle2, AlertTriangle, Play, HelpCircle } from "lucide-react";
 import { AnalysisResult } from "../types";
+import { clientSideAnalyzeText } from "../data/pythonCodeData";
 
 export const AnalyzerView: React.FC = () => {
   const [mode, setMode] = useState<"text" | "appid">("text");
@@ -63,14 +64,20 @@ export const AnalyzerView: React.FC = () => {
           description: descInput
         })
       });
-      const data = await res.json();
-      if (data.success) {
-        setAnalysisResult(data.result);
-      } else {
-        alert("分析失败: " + data.error);
+      if (res.ok) {
+        const data = await res.json();
+        if (data.success) {
+          setAnalysisResult(data.result);
+          return;
+        }
       }
+      // If API fails or 404 (GitHub Pages static host), run client-side engine
+      const clientRes = clientSideAnalyzeText(devInput, pubInput, descInput);
+      setAnalysisResult(clientRes);
     } catch (e: any) {
-      alert("请求异常: " + e.message);
+      // Run client-side analysis engine fallback
+      const clientRes = clientSideAnalyzeText(devInput, pubInput, descInput);
+      setAnalysisResult(clientRes);
     } finally {
       setIsAnalyzing(false);
     }

@@ -1,23 +1,28 @@
 import React, { useState, useEffect } from "react";
 import { FileCode, Copy, Check, Download, Layers, ShieldCheck, Cpu } from "lucide-react";
 import { PythonSourceFile } from "../types";
+import { EMBEDDED_PYTHON_FILES } from "../data/pythonCodeData";
 
 export const CodeView: React.FC = () => {
-  const [files, setFiles] = useState<PythonSourceFile[]>([]);
+  const [files, setFiles] = useState<PythonSourceFile[]>(EMBEDDED_PYTHON_FILES);
   const [activeFileIndex, setActiveFileIndex] = useState<number>(0);
   const [copied, setCopied] = useState<boolean>(false);
-  const [loading, setLoading] = useState<boolean>(true);
+  const [loading, setLoading] = useState<boolean>(false);
 
   useEffect(() => {
     fetch("/api/python-files")
-      .then((res) => res.json())
+      .then((res) => {
+        if (!res.ok) throw new Error("API not available");
+        return res.json();
+      })
       .then((data) => {
-        if (data.success && data.files) {
+        if (data.success && Array.isArray(data.files) && data.files.length > 0) {
           setFiles(data.files);
         }
       })
-      .catch((e) => console.error("Failed to load python files:", e))
-      .finally(() => setLoading(false));
+      .catch((e) => {
+        // Fallback already in place from EMBEDDED_PYTHON_FILES
+      });
   }, []);
 
   const handleCopy = () => {
